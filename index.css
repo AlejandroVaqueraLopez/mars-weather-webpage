@@ -1,0 +1,15 @@
+.container{
+	height:400px;
+	width:100vw;
+	background:black;
+}
+/*.figura{
+	width:500px;
+	height:500px;
+}*/
+	div[class*="col"]{
+		height:130px;
+	}
+	.h{
+		height:50%;
+	}
