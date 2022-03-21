@@ -1,0 +1,15 @@
+.navbar-brand img{
+	height:60px;
+}
+.bg-space{
+	background-image:url("https://cdn.wallpapersafari.com/88/66/Uowyg0.jpg");
+	background-size:cover;
+	background-position:center;
+}
+
+.main-section-row{
+	min-height:calc(100vh - 60px);
+}
+.card{
+	height:300px;
+}
