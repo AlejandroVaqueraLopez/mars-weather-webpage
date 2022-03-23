@@ -1,7 +1,7 @@
 {
-  "name": "mars-weather-webpage",
+  "name": "natural-events-webpage",
   "version": "1.0.0",
-  "description": "Mars Weather",
+  "description": "Natural events",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,20 +9,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AlejandroVaqueraLopez/mars-weather-webpage.git"
+    "url": "git+https://github.com/AlejandroVaqueraLopez/natural-events-webpage.git"
   },
   "keywords": [
-    "mars",
+    "natural",
     "alien",
     "weather",
-    "data"
+    "data",
+    "events"
   ],
   "author": "Vaquera Lopez Alejandro",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/AlejandroVaqueraLopez/mars-weather-webpage/issues"
+    "url": "https://github.com/AlejandroVaqueraLopez/natural-events-webpage/issues"
   },
-  "homepage": "https://github.com/AlejandroVaqueraLopez/mars-weather-webpage#readme",
+  "homepage": "https://github.com/AlejandroVaqueraLopez/natural-events-webpage#readme",
   "dependencies": {
     "axios": "^0.26.1",
     "ejs": "^3.1.6",
