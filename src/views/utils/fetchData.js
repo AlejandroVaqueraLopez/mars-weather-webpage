@@ -29,7 +29,7 @@ let genMarkCode = (long,lat,color)=>{
 /*geomap url creator function*/
 let geoMapMergeFetch = (API_URL_GEOMAP,API_KEY_GEOMAP,width,height,long,lat,latEvent1,longEvent1,color1,latEvent2,longEvent2,color2,latEvent3,longEvent3,color3,latEvent4,longEvent4,color4,latEvent5,longEvent5,color5) => {
 	try{
-		const response = (`${API_URL_GEOMAP}?style=osm-carto&width=${width}&height=${height}&center=lonlat:${long},${lat}&zoom=0&${genMarkCode(latEvent1,longEvent1,color1)}&${genMarkCode(latEvent2,longEvent2,color2)}&${genMarkCode(latEvent3,longEvent3,color3)}&${genMarkCode(latEvent4,longEvent4,color4)}&${genMarkCode(latEvent5,longEvent5,color5)}&apiKey=${API_KEY_GEOMAP}`);
+		const response = (`${API_URL_GEOMAP}?style=osm-carto&width=${width}&height=${height}&center=lonlat:${long},${lat}&zoom=0&${genMarkCode(latEvent1,longEvent1,color1)}&${genMarkCode(latEvent2,longEvent2,color2)}&${genMarkCode(latEvent3,longEvent3,color3)}&${genMarkCode(latEvent4,longEvent4,color4)}&${genMarkCode(latEvent5,longEvent5,color5)}&format=png&apiKey=${API_KEY_GEOMAP}`);
 		return response;
 	}catch(error){
 		console.log(error)

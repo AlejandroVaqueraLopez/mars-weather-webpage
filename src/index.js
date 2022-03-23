@@ -52,8 +52,8 @@ app.get("/events", async (req,res) =>{
 	let geoMapMerge = await fetchFile.geoMapMergeFetch(
 		API_URL_GEOMAP,
 		API_KEY_GEOMAP,
-		"4000",
-		"4000",
+		"3000",
+		"3000",
 		"158",
 		"13",
 		eventData1.geometries[0].coordinates[0],
